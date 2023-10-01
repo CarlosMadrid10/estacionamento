@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas</title>
+    <link rel="stylesheet" href="../estilos/directs-styles/style-index.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Vagas</a></li>
+                    <li><a href="cadastro-reserva.html">Cadastrar Reserva</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <section>
+                <h2>
+                    Vagas
+                </h2>
+                <div class="select">
+                    <label for="filtro-vagas">Filtro: </label>
+                    <select name="filtro-vagas" id="filtro-vagas">
+                        <option value="todas" selected>Todas</option>
+                        <option value="disponiveis">Disponíveis</option>
+                        <option value="nao-disponiveis">Não Disponíveis</option>
+                    </select>
+                </div>
+                <table id="lista-vagas">
+                    <tr>
+                        <th>Vaga</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </table>
+
+            </section>
+        </article>
+    </main>
+    <script src="../scripts/scriptIndex.js"></script>
+</body>
+</html>

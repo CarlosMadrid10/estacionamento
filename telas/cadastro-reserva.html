@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Reserva</title>
+    <link rel="stylesheet" href="../estilos/directs-styles/style-cadastro-reserva.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Vagas</a></li>
+                    <li><a href="cadastro-reserva.html">Cadastrar Reserva</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <section>
+                <h2>Cadastrar Reserva</h2>
+                <fieldset>
+                    <div class="campo-capt-infos">
+                        <label for="nome-proprietario">Nome do Proprietário</label>
+                        <input type="text" id="nome-proprietario">
+                    </div>
+
+                    <div class="campo-capt-infos">
+                        <label for="numero-apartamento">Número do Apartamento</label>
+                        <input type="number" id="numero-apartamento">
+                    </div>
+
+                    <div class="campo-capt-infos">
+                        <label for="bloco-apartamento">Bloco do Apartamento</label>
+                        <input type="text" id="bloco-apartamento">
+                    </div>
+
+                    <div class="campo-capt-infos">
+                        <label for="nome-proprietario">Modelo do Veículo</label>
+                        <input type="text" id="modelo-veiculo">
+                    </div>
+
+                    <div class="campo-capt-infos">
+                        <label for="cor-veiculo">Cor do Veículo</label>
+                        <input type="text" id="cor-veiculo">
+                    </div>
+
+                    <div class="campo-capt-infos">
+                        <label for="placa-veiculo">Placa do Veículo</label>
+                        <input type="text" id="placa-veiculo">
+                    </div>
+
+                    <div class="campo-select-infos">
+                        <label for="vagas-disponiveis">Selecionar Vaga</label>
+                        <select name="vagas-disponiveis" id="vagas-disponiveis">
+                        </select>
+                    </div>
+
+                    <div class="campo-submit-infos">
+                        <button disabled>Concluir</button>
+                    </div>
+                </fieldset>
+            </section>
+        </article>
+    </main>
+    <script src="../scripts/scriptCadastroReserva.js"></script>
+</body>
+</html>
+
